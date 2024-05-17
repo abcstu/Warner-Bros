@@ -5,6 +5,12 @@
    
 }
 
+@media only screen and (max-width:940px){
+.menu-container{
+    display:none;
+ }
+}
+
 /*main container*/
 .banner{
     width:2000px;
