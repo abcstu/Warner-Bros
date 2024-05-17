@@ -1,1 +1,325 @@
 
+*{
+    margin:0;
+    padding:0;
+   
+}
+
+/*main container*/
+.banner{
+    width:2000px;
+    height:150vh;
+    background-image:linear;
+    background-size:cover;
+    background-position:centre;
+    background:black;
+}
+
+.banner h2{
+    color:orange;
+}
+
+/*for the navigation bar*/
+.navbar{
+    width:85%;
+    margin:auto;
+    padding:35px 0;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+.navbar ul li{
+    list-style:none;
+    display:inline-block;
+    margin:0 20px;
+    position:relative;
+}
+
+.navbar ul li a{
+    text-decoration:none;
+    color:white;
+    text-transform:uppercase;
+    font-size:18px;
+    font-weight:500;
+    margin-left:35px;
+}
+
+.navbar ul li::after{
+    content:'';
+    height:3px;
+    width:0;
+    background:yellowgreen;
+    position:absolute;
+    left:0;
+    bottom:-10px;
+
+}
+
+.navbar ul li:hover::after{
+    width:100%;
+}
+
+/*for text on the website*/
+.content{
+    width:100%;
+    position:absolute;
+    top:50%;
+    text-align:center;
+    color:orange;
+    font-size:15px;
+    top: 130px;
+}
+
+.content p{
+    color:white;
+    font-size:20px;
+    
+}
+
+/*For content in the header*/
+.header{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    padding:20px 120px;
+    margin:left;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    z-index:100;
+    
+}
+
+/*Warner Bros logo*/
+.logo{
+    font-size:55px;
+    color:yellowgreen;
+    text-decoration:none;
+    font-weight:600;   
+}
+
+/*For movie and Tv shows*/
+.movies{
+    float:left;
+    background:black;
+    margin:10px auto;
+    padding:100px;
+    color:white;
+    display:inline-flex;
+    border:25px;
+
+}
+
+.movies img{
+    width:300px;
+    height: 300px;
+    padding:40px;
+}
+
+/*For text on the website*/
+.container{
+    color:orange;
+    background-size:cover;
+    background-position:center;
+    text-align:center;
+    margin:10px auto;
+}
+
+.p{
+    color:white;
+}
+
+/*feedback form*/
+.section{
+    position:absolute;
+    height:100%;
+    width:100%;
+    background-size:cover;
+    background-position:center;
+    filter:blur(2px) brightness(40%);
+}
+
+.box{
+    width:900px;
+    background:white;
+    
+
+}
+
+
+.box form{
+    width:900px;
+    text-align:center;
+    padding:25px 20px;
+}
+
+.form h1{
+    color:orange;
+    padding:25px;
+}
+
+.form id{
+    position:fixed;
+}
+
+.id i{
+    position:fixed;
+    font-size:40px;;
+    top:1px;
+    right:1px;
+    transform:rotateY(-50%);
+}
+
+.form input{
+    width:100%;
+    height:50px;
+    margin:4px 0;
+    border:1px solid white;
+    border-radius:3px;
+    background:white;
+    padding:0;
+    padding-right:45px;
+    font-size:20px;
+}
+
+.form textarea{
+    padding:5px 15px;
+    border:1px solid white;
+    border-radius:3px;
+    background:white;
+    font-size:20px;
+    width:100%;
+    margin:4px;
+}
+
+.form button{
+    margin-top:5px;
+    border:none;
+    background:white;
+    color:white;
+    padding:10px 0;
+    width:100%;
+    font-size:20px;
+    font-weight:800;
+    cursor:pointer;
+    border-radius:3px;
+}
+
+.form input:focus,
+form textarea:focus{
+    border:1px solid blueviolet;
+    color:blue;
+    transition:all 0.3s ease;
+}
+
+
+.form input:focus:placeholder,
+form textarea:focus::placeholder{
+    padding-left:4px;
+    border:1 px solid yellowgreen;
+    color:orange;
+    transition:all 0.3s ease;
+}
+
+.form input:focus+i{
+    color:orange;
+    transition:all 0.3s ease;
+}
+
+/*App Icons*/
+.fa-square-twitter{
+    color:skyblue;
+    float:left;
+    font-size:70px;
+}
+
+.fa-square-pinterest{
+    color:red;
+    float:left;
+    font-size:70px;
+}
+
+.fa-square-facebook{
+    color:darkblue;
+    float:left;
+    font-size:70px;
+}
+
+
+.fa-square-youtube{
+    color:red;
+    float:left;
+    font-size:70px;
+}
+
+
+.icons{
+    color:blueviolet;
+    
+}
+
+.icons h1{
+    color:orange;
+}
+
+.icons p{
+    color:white;
+}
+
+/*For games*/
+.games h1{
+    color:orange;
+}
+
+.games p{
+    color:white;
+}
+
+/*For music*/
+.music{
+    float:right;
+    background:black;
+    padding:100px;
+    color:white;
+   display:inline-flex;
+   border:200px;	
+    
+    
+}
+
+.music img{
+    width: 300px;
+    height: 300px;
+    padding:10px;
+   
+}
+
+.music h1{
+    color:orange;
+    padding:20px;
+    float:right;
+    width:100%;
+    position:absolute;
+    top:50%;
+    text-align:center;
+    font-size:40px;
+    top: 100px;
+}
+
+
+.music p{
+    color:white;
+    padding:40px;
+    float:right;
+    width:100%;
+    position:absolute;
+    top:50%;
+    text-align:center;
+    font-size:20px;
+    top: 120px;
+}
+
+
+
